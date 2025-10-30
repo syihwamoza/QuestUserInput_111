@@ -33,7 +33,11 @@ import com.example.inputpengguna.R
 fun FormDataDiri (modifier: Modifier
 ){
     //variabel-variabel untuk mengingat nilai masukan dari keyboard
-    var textNama by remember { mutableStateOf("")
-        var textAlamat by remember { mutableStateOf("") }
-        var textJK by remember { mutableStateOf("") }
-    }
+    var textNama by remember { mutableStateOf("") }
+    var textAlamat by remember { mutableStateOf("") }
+    var textJK by remember { mutableStateOf("") }
+
+    //variabel-variabel untuk menyimpan data yang diperoleh dari komponen UI
+    var nama by remember { mutableStateOf("") }
+
+}
