@@ -48,5 +48,9 @@ fun FormDataDiri (modifier: Modifier
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally) {
         OutlinedTextField(
+            value = textNama,
+            singleLine = true,
+            shape = MaterialTheme.shapes.large,
+
 
     }
